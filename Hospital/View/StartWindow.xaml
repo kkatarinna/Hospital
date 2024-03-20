@@ -1,0 +1,31 @@
+﻿<Window x:Class="Hospital.View.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital.View"
+        mc:Ignorable="d"
+        Title="StartWindow" Height="300" Width="300"
+        Closing="myWindow_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox HorizontalAlignment="Center"
+                 Text="{Binding Path=Username, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                 Grid.Row="0"
+                 Width="120" 
+                 VerticalAlignment="Center" 
+                 Margin="0,0,0,0"/>
+        <TextBox HorizontalAlignment="Center"
+                 Text="{Binding Path=Password, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                 Grid.Row="0"  
+                 Width="120" 
+                 VerticalAlignment="Center" 
+                 Margin="0,50,0,0">
+        </TextBox>
+        <Button Content="Log In" HorizontalAlignment="Center"  Grid.Row="2" Click="Log_In_Click" VerticalAlignment="Center" Width="100" Height="30"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<Window x:Class="Hospital.View.Doctor.AddDoctorRefferal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital.View.Doctor"
+        mc:Ignorable="d"
+        Title="AddDoctorRefferal" Height="450" Width="800">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <!-- Placeholder for the TextBox itself -->
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Choose a dotor for refferal" HorizontalAlignment="Left" Height="23" Margin="134,122,0,0" VerticalAlignment="Top" Width="157"/>
+        <ComboBox x:Name="DoctorCB" HorizontalAlignment="Left" Height="23" Margin="363,122,0,0" VerticalAlignment="Top" Width="238" RenderTransformOrigin="0.5,0.5"
+                  SelectedItem="{Binding Path=SelectedDoctor,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.235"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+        <Button Click="AddRefferal_Click" Content="Add" HorizontalAlignment="Left" Height="20" Margin="134,294,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button Click="Cancel_Click" Content="Cancel" HorizontalAlignment="Left" Height="20" Margin="260,294,0,0" VerticalAlignment="Top" Width="90"/>
+
+    </Grid>
+</Window>

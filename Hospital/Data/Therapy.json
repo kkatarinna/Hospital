@@ -1,0 +1,148 @@
+[
+  {
+    "Id": 1,
+    "Prescriptions": [
+      {
+        "MedicineID": 4,
+        "Instructions": "analgin sam ti dala"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 2,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 2,
+    "Prescriptions": [
+      {
+        "MedicineID": 3,
+        "Instructions": "Aspirina pij"
+      },
+      {
+        "MedicineID": 3,
+        "Instructions": "Aspirina pij"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 3,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 3,
+    "Prescriptions": [
+      {
+        "MedicineID": 4,
+        "Instructions": "analgin"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 9,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 4,
+    "Prescriptions": [
+      {
+        "MedicineID": 4,
+        "Instructions": "jakdfhsk"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 10,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 5,
+    "Prescriptions": [
+      {
+        "MedicineID": 5,
+        "Instructions": "pij"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 10,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 6,
+    "Prescriptions": [
+      {
+        "MedicineID": 5,
+        "Instructions": "hsdkla"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 10,
+    "Start": "14-06-2023T21:13:21",
+    "LastMedicineIssue": "14-06-2023T21:13:21"
+  },
+  {
+    "Id": 7,
+    "Prescriptions": [
+      {
+        "MedicineID": 0,
+        "Instructions": "wqhik"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 22,
+    "Start": "30-05-2023T19:43:07",
+    "LastMedicineIssue": "30-05-2023T20:36:07"
+  },
+  {
+    "Id": 8,
+    "Prescriptions": [
+      {
+        "MedicineID": 3,
+        "Instructions": "aspirin"
+      },
+      {
+        "MedicineID": 3,
+        "Instructions": "aspirin"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 10,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 9,
+    "Prescriptions": [
+      {
+        "MedicineID": 5,
+        "Instructions": "rapten"
+      },
+      {
+        "MedicineID": 2,
+        "Instructions": "amplicilin"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 2,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  },
+  {
+    "Id": 10,
+    "Prescriptions": [
+      {
+        "MedicineID": 5,
+        "Instructions": "1"
+      },
+      {
+        "MedicineID": 4,
+        "Instructions": "2"
+      }
+    ],
+    "PatientId": 2,
+    "Duration": 4,
+    "Start": "01-01-0001T00:00:00",
+    "LastMedicineIssue": "01-01-0001T00:00:00"
+  }
+]

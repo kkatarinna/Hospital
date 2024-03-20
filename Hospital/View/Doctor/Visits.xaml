@@ -1,0 +1,30 @@
+﻿<Window x:Class="Hospital.View.Doctor.Visits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital.View.Doctor"
+        mc:Ignorable="d"
+        Title="Visits" Height="450" Width="800">
+    <Grid>
+        <DataGrid DockPanel.Dock="Bottom"
+                  ItemsSource="{Binding Path=PatientsInHospital, UpdateSourceTrigger=PropertyChanged}"
+                  SelectedItem="{Binding Path=SelectedTreatment, UpdateSourceTrigger=PropertyChanged}"
+                  AutoGenerateColumns="False" IsReadOnly="True"
+                  Width="750" Height="350" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="IdPatient" Binding="{Binding PatientId}" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="Room number" Binding="{Binding RoomNumber}" Width="100"></DataGridTextColumn>
+
+                <DataGridTemplateColumn Header="Visit">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding VisitPatient}">Edit visit</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

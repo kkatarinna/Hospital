@@ -1,0 +1,249 @@
+[
+  {
+    "Id": 3,
+    "IdDoctor": 2,
+    "IdPatient": 3,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "20-06-2023T12:20:00",
+      "Duration": 15
+    },
+    "Anamnesis": "ANA MNe ZAA",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 4,
+    "IdDoctor": 6,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "01-01-2222T00:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "najnovija anamznea za najnovijeg pacjenta",
+    "Specialization": 2,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 6,
+    "IdDoctor": 15,
+    "IdPatient": 0,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "28-05-2023T08:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 7,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "01-01-0001T00:00:00",
+      "Duration": 0
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 8,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T16:30:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 9,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T16:45:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 10,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T17:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 11,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T17:15:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 12,
+    "IdDoctor": 2,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T17:30:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 3,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 13,
+    "IdDoctor": 3,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T08:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 4,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 14,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T08:15:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 15,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T20:30:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 16,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T20:45:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 17,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "30-05-2023T21:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 18,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T08:30:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 19,
+    "IdDoctor": 3,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T08:45:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 4,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 20,
+    "IdDoctor": 5,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T09:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 1,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 21,
+    "IdDoctor": 3,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "31-05-2023T09:15:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 4,
+    "RoomNumber": "01C"
+  },
+  {
+    "Id": 22,
+    "IdDoctor": 3,
+    "IdPatient": 2,
+    "IsOperation": false,
+    "TimeSlot": {
+      "Start": "15-06-2023T08:00:00",
+      "Duration": 15
+    },
+    "Anamnesis": "",
+    "Specialization": 4,
+    "RoomNumber": "01C"
+  }
+]

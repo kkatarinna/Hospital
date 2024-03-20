@@ -1,0 +1,23 @@
+[
+  {
+    "QualityOfService": 2,
+    "HospitalCleanliness": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "21"
+  },
+  {
+    "QualityOfService": 2,
+    "HospitalCleanliness": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "2"
+  },
+  {
+    "QualityOfService": 5,
+    "HospitalCleanliness": 5,
+    "UserSatisfaction": 5,
+    "FriendsRecommendation": 5,
+    "Comment": "Super"
+  }
+]

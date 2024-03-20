@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "IdDoctor": 5,
+    "QualityOfService": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "21"
+  },
+  {
+    "Id": 5,
+    "IdDoctor": 10,
+    "QualityOfService": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "s"
+  },
+  {
+    "Id": 6,
+    "IdDoctor": 3,
+    "QualityOfService": 2,
+    "UserSatisfaction": 4,
+    "FriendsRecommendation": 4,
+    "Comment": "2"
+  },
+  {
+    "Id": 21,
+    "IdDoctor": 2,
+    "QualityOfService": 4,
+    "UserSatisfaction": 4,
+    "FriendsRecommendation": 4,
+    "Comment": "Super"
+  },
+  {
+    "Id": 9,
+    "IdDoctor": 2,
+    "QualityOfService": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "Bad"
+  },
+  {
+    "Id": 20,
+    "IdDoctor": 5,
+    "QualityOfService": 2,
+    "UserSatisfaction": 2,
+    "FriendsRecommendation": 2,
+    "Comment": "Lose"
+  }
+]

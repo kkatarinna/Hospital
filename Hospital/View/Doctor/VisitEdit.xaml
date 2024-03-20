@@ -1,0 +1,16 @@
+﻿<Window x:Class="Hospital.View.Doctor.VisitEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital.View.Doctor"
+        mc:Ignorable="d"
+        Title="VisitEdit" Height="450" Width="800">
+    <Grid>
+        <Button Content="Therapy" HorizontalAlignment="Left" Height="26" Margin="49,61,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+        <CheckBox Content="Required control in 10 days" HorizontalAlignment="Left" Margin="49,118,0,0" VerticalAlignment="Top"/>
+        <Button Content="Discharge patient" HorizontalAlignment="Left" Height="26" Margin="258,103,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.517,-0.213"/>
+        <Button Content="Extend hospital treatment" HorizontalAlignment="Left" Height="26" Margin="49,180,0,0" VerticalAlignment="Top" Width="147"/>
+
+    </Grid>
+</Window>

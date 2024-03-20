@@ -1,0 +1,51 @@
+[
+  {
+    "Id": 0,
+    "Name": "Amoksicilin caps",
+    "BoxQuantity": 20,
+    "Components": [
+      "Penicilin",
+      "Amoksicilin-trihidrat"
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "Ospamox",
+    "BoxQuantity": 10,
+    "Components": [
+      "Penicilin"
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Ampicilin",
+    "BoxQuantity": 30,
+    "Components": [
+      "Penicilin"
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Aspirin",
+    "BoxQuantity": 19,
+    "Components": [
+      "Acetilsalicilna kiselina"
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Analgin",
+    "BoxQuantity": 14,
+    "Components": [
+      "Metamizol"
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Rapten K",
+    "BoxQuantity": 62,
+    "Components": [
+      "E123 cochlenillerotlack"
+    ]
+  }
+]

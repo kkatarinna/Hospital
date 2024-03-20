@@ -1,0 +1,51 @@
+﻿[
+  {
+    "Id": 1,
+    "FirstName": "Prvi",
+    "LastName": "A",
+    "Specialization": 2,
+    "Rating": 3.2
+  },
+  {
+    "Id": 2,
+    "FirstName": "Drugi",
+    "LastName": "B",
+    "Specialization": 3,
+    "Rating": 4.45
+  },
+  {
+    "Id": 3,
+    "FirstName": "Treci",
+    "LastName": "C",
+    "Specialization": 4,
+    "Rating": 3.6
+  },
+  {
+    "Id": 4,
+    "FirstName": "Cetvrti",
+    "LastName": "Doctor",
+    "Specialization": 5,
+    "Rating": 4.7
+  },
+  {
+    "Id": 5,
+    "FirstName": "Peti",
+    "LastName": "E",
+    "Specialization": 1,
+    "Rating": 4.2
+  },
+  {
+    "Id": 6,
+    "FirstName": "sesti",
+    "LastName": "E",
+    "Specialization": 6,
+    "Rating": 4.2
+  },
+  {
+    "Id": 7,
+    "FirstName": "sesti",
+    "LastName": "E",
+    "Specialization": 7,
+    "Rating": 4.2
+  }
+]

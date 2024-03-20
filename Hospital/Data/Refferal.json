@@ -1,0 +1,26 @@
+[
+  {
+    "$type": "doctor",
+    "DoctorID": 3,
+    "Id": 0,
+    "PatientId": 2
+  },
+  {
+    "$type": "hospital",
+    "TherapyID": 6,
+    "PatientID": 2,
+    "Duration": 10,
+    "AdditionalTests": true,
+    "Id": 6,
+    "PatientId": 0
+  },
+  {
+    "$type": "hospital",
+    "TherapyID": 7,
+    "PatientID": 2,
+    "Duration": 9,
+    "AdditionalTests": true,
+    "Id": 7,
+    "PatientId": 0
+  }
+]

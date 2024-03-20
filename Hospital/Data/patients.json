@@ -1,0 +1,81 @@
+[
+  {
+    "Id": 0,
+    "IsBlocked": false,
+    "CreatedAppointmentsCount": 0,
+    "ChangedAppointmentsCount": 0,
+    "FirstName": "Jelena",
+    "LastName": "Daire",
+    "MedicalRecord": {
+      "Height": 100,
+      "Weight": 51,
+      "MedicalHistory": [
+        "meningitis"
+      ],
+      "Allergens": [
+        "Penicilin",
+        "Amoksicilin-trihidrat",
+        "Metamizol",
+        "Glukoza"
+      ],
+      "Anamnesis": "kaze da je bas bolesna",
+      "Refferal": -1,
+      "Therapy": 6
+    }
+  },
+  {
+    "Id": 2,
+    "IsBlocked": false,
+    "CreatedAppointmentsCount": 0,
+    "ChangedAppointmentsCount": 0,
+    "FirstName": "Joca",
+    "LastName": "Pavkov",
+    "MedicalRecord": {
+      "Height": 180,
+      "Weight": 90,
+      "MedicalHistory": [
+        "UMRO MOMAK"
+      ],
+      "Allergens": [
+        "Penicilin"
+      ],
+      "Anamnesis": "ANA MNe ZAA",
+      "Refferal": -1,
+      "Therapy": 6
+    }
+  },
+  {
+    "Id": 3,
+    "IsBlocked": false,
+    "CreatedAppointmentsCount": 0,
+    "ChangedAppointmentsCount": 0,
+    "FirstName": "prvo",
+    "LastName": "Ime",
+    "MedicalRecord": {
+      "Height": 170,
+      "Weight": 74,
+      "MedicalHistory": [],
+      "Allergens": [],
+      "Anamnesis": null,
+      "Refferal": -1,
+      "Therapy": 6
+    }
+  },
+  {
+    "Id": 4,
+    "IsBlocked": false,
+    "CreatedAppointmentsCount": 0,
+    "ChangedAppointmentsCount": 0,
+    "FirstName": "Gospodin",
+    "LastName": "Pacjent",
+    "MedicalRecord": {
+      "Height": 160,
+      "Weight": 90,
+      "MedicalHistory": [],
+      "Allergens": [],
+      "Anamnesis": null,
+      "Refferal": -1,
+      "Therapy": 6
+    }
+  }
+]

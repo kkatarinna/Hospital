@@ -1,0 +1,30 @@
+[
+  {
+    "SenderId": 1,
+    "SenderFullName": "Sestra prva",
+    "ReceiverId": 2,
+    "ReceiverFullName": "Drugi B",
+    "Content": "Hello"
+  },
+  {
+    "SenderId": 2,
+    "SenderFullName": "Drugi B",
+    "ReceiverId": 1,
+    "ReceiverFullName": "Sestra prva",
+    "Content": "Hi"
+  },
+  {
+    "SenderId": 1,
+    "SenderFullName": "Pera",
+    "ReceiverId": 2,
+    "ReceiverFullName": "Pera",
+    "Content": "hello"
+  },
+  {
+    "SenderId": 1,
+    "SenderFullName": "Pera",
+    "ReceiverId": 2,
+    "ReceiverFullName": "Pera",
+    "Content": "hello"
+  }
+]
